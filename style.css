@@ -8,3 +8,58 @@ header {
     align-items: center;
     background-color: #eee;
   }
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+      content: "\f06d";
+}
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+      box-sizing: border-box;
+  display:block;
+  font-family: 'Lato', sans-serif;
+}
+#logo {
+  width: 100%;
+  width: 60vw;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+  #submit {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: #f1c40f;
+}
+#fa-fire {
+    content: "\f06d";
+}
+product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  box-sizing: border-box;
+  display:block;
+}
